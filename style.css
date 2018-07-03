@@ -1,3 +1,124 @@
+* {
+font-family: sans-serif;
+}
+
+.container {
+	width: 100%;
+	
+} 
+
+
+/* debut : forme du menu*/
+.menu {
+	width: 100%;
+	
+} 
+
+
+.menu ul{
+	list-style: none;
+	float:right;
+}
+
+.menu ul li{
+	display: inline-block;
+	float:left;
+}
+
+.menu ul li a{
+	display: block;
+	padding: 10px 15px;
+	text-decoration:none;
+	color:black;
+}
+
+.bouton_connexion{
+    	padding: 1px 2px;
+	background-color: cornflowerblue;
+	border-radius:3px;
+	color:white;
+}
+/* fin: donne la forme du menu*/
+
+/* debut: donne la position du logo Google*/
+
+#logo {
+    	margin:auto;
+	padding-top: 200px;
+    	width:50%;
+}
+
+#image_logo_google {
+    	margin: 20px;
+	display: flex;
+	justify-content: center;
+}
+.bouton_sous_searchbar{
+	width=100%;
+	display:flex;
+	justify-content: center;
+}
+
+input[type=button]{
+	background-color:#f0f0f0;
+	padding: 8px 20px;
+	margin-right:10px;
+	border: none;
+	border-radius: 3px;
+	position:relative; 
+	top:10px;
+	
+}
+
+footer {
+	position:fixed;
+	bottom: 0px;
+	left:0px;
+	width: 100%;
+	background-color: #f0f0f0
+	
+}
+
+.liens_footer {
+	background-color: #f0f0f0;
+	border-top:1px solid #e4e4e4;
+	
+}
+
+.liens_footer ul{
+	list-style: none;    	
+
+}
+
+.liens_footer ul li{
+	display: inline-block;
+	float:left;
+}
+
+#droite {
+	
+	float:right;
+}
+
+.liens_footer ul li a{
+	display: block;
+	padding-right: 25px;
+	text-decoration:none;
+	font-size:12px;
+	color: grey;
+}
+
+hr {
+	opacity: 0.2;
+}
+
+p {
+	margin-left: 40px;
+	color: grey;
+}
+
+
+/* debut: donne la forme de la barre de recherche*/
 #searchbar{
     position:relative;
     width:1040px;
@@ -13,6 +134,7 @@
     height:35px;
     float:left;
 }
+}
 #searchbar .bouton{
     background-image: url(images/searchbar_button.png);
     width: 35px;
@@ -21,3 +143,5 @@
     border:none;
     float:left;
 }
+/* fin: donne la forme de la barre de recherche*/
+
