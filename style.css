@@ -8,7 +8,7 @@ font-family: sans-serif;
 } 
 
 
-/* debut : forme du menu*/
+/* debut : forme du menu en haut à droite*/
 .menu {
 	width: 100%;
 	
@@ -26,25 +26,31 @@ font-family: sans-serif;
 }
 
 .menu ul li a{
+	margin-right: 10px;	
 	display: block;
-	padding: 10px 15px;
+	padding: 0px 6px;
 	text-decoration:none;
 	color:black;
+	font-size:13px;
 }
 
 .bouton_connexion{
-    	padding: 1px 2px;
+    	padding: 1px 4px;
 	background-color: cornflowerblue;
 	border-radius:3px;
 	color:white;
 }
-/* fin: donne la forme du menu*/
+/* fin: forme du menu e haut à droite*/
 
-/* debut: donne la position du logo Google*/
+/* debut: position du logo Google*/
+#master {
+    	margin:0px auto;
+
+}
 
 #logo {
-    	margin:auto;
-	padding-top: 200px;
+    	margin: auto;
+	padding-top: 190px;
     	width:50%;
 }
 
@@ -53,6 +59,37 @@ font-family: sans-serif;
 	display: flex;
 	justify-content: center;
 }
+/* fin: position du logo Google*/
+
+/* debut: forme de la barre de recherche*/
+#searchbar{
+    position:relative;
+    width:1040px;
+	left:52px;
+    height:auto;
+    display:inline-block;
+}
+#searchbar .text{
+    width:300px;
+    float:left;
+}
+#searchbar .champ{
+    width:600px;
+    height:35px;
+    float:left;
+}
+
+#searchbar .bouton{
+    background-image: url(images/searchbar_button.png);
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border:none;
+    float:left;
+}
+/* fin: forme de la barre de recherche*/
+
+/* debut: forme boutons sous barre de recherche*/
 .bouton_sous_searchbar{
 	width=100%;
 	display:flex;
@@ -67,16 +104,17 @@ input[type=button]{
 	border-radius: 3px;
 	position:relative; 
 	top:10px;
-	
 }
+/* fin: forme boutons sous barre de recherche*/
 
+/* debut: forme pied de page*/
 footer {
 	position:fixed;
-	bottom: 0px;
+	bottom: 10px;
 	left:0px;
 	width: 100%;
-	background-color: #f0f0f0
-	
+	background-color: #f9f9f9;
+		
 }
 
 .liens_footer {
@@ -102,9 +140,9 @@ footer {
 
 .liens_footer ul li a{
 	display: block;
-	padding-right: 25px;
+	padding-right: 35px;
 	text-decoration:none;
-	font-size:12px;
+	font-size:14px;
 	color: grey;
 }
 
@@ -113,35 +151,10 @@ hr {
 }
 
 p {
-	margin-left: 40px;
+	margin-left: 30px;
 	color: grey;
 }
 
+/* fin: forme pied de page*/
 
-/* debut: donne la forme de la barre de recherche*/
-#searchbar{
-    position:relative;
-    width:1040px;
-    height:auto;
-    display:inline-block;
-}
-#searchbar .text{
-    width:300px;
-    float:left;
-}
-#searchbar .champ{
-    width:600px;
-    height:35px;
-    float:left;
-}
-}
-#searchbar .bouton{
-    background-image: url(images/searchbar_button.png);
-    width: 35px;
-    height: 35px;
-    padding: 0;
-    border:none;
-    float:left;
-}
-/* fin: donne la forme de la barre de recherche*/
 
